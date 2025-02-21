@@ -16,13 +16,6 @@ Es el último principio del acrónimo SOLID y establece dos reglas fundamentales
 
 En este proyecto demostramos cómo aplicar correctamente el principio de Inversión de Dependencias en Python, utilizando un sistema de procesamiento de pagos como ejemplo. El sistema permite cambiar fácilmente entre diferentes métodos de pago (tarjeta de crédito, PayPal) sin modificar el código del procesador principal.
 
-### Estructura del código
-
-- `abstraction.py`: Contiene la interfaz abstracta para los métodos de pago
-- `implementations.py`: Implementaciones concretas para diferentes métodos de pago
-- `processor.py`: El procesador de pagos que depende de la abstracción
-- `main.py`: Ejemplo de uso del sistema
-
 ### Objetivos de aprendizaje
 
 - Comprender cómo las dependencias pueden invertirse mediante abstracciones
@@ -37,13 +30,6 @@ En este proyecto demostramos cómo aplicar correctamente el principio de Inversi
 - **Mantenibilidad**: Los cambios en una parte del sistema no afectan a otras partes
 - **Extensibilidad**: Se pueden añadir nuevas funcionalidades sin modificar el código existente
 
-### Instrucciones
-
-1. Clona este repositorio
-2. Examina el código fuente para entender la implementación
-3. Ejecuta `python main.py` para ver el sistema en acción
-4. Intenta añadir un nuevo método de pago sin modificar el procesador existente
-5. Reflexiona sobre cómo este principio mejora la calidad del código
 
 ---
 
